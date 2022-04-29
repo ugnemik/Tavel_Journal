@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  background: #f55a5a;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7em;
+}
+.header img {
+  margin-right: 0.5em;
+}
+.header p {
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+
+.app-content {
+  margin: 1em 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  padding: 2em 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.card img {
+  width: 30%;
+  min-height: 300px;
+  object-fit: cover;
+  margin-right: 1.5em;
+  border-radius: 5px;
+}
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card .card-content .location {
+  display: flex;
+  align-items: center;
+}
+.card .card-content .location p {
+  text-transform: uppercase;
+  margin-right: 1em;
+  letter-spacing: 1px;
+}
+.card .card-content .location p i {
+  margin-right: 0.5em;
+  color: #f55a5a;
+}
+.card .card-content .location a {
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+.card .card-content .location a:hover {
+  opacity: 0.8;
+}
+
+.card .card-content .title {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+}
+
+.card-content .date {
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.card-content .description {
+  font-weight: 400;
+  line-height: 150%;
+  color: #2b283a;
+  margin-top: 9px;
+}
